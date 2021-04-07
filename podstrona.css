@@ -1,0 +1,154 @@
+body{
+background-image: url(papier.jpg);
+background-image: cover;
+background image: no-repeat;
+margin: 0;
+padding: 0;
+font-size: 20px;
+margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#strona{
+	width: 1200px;
+	margin: auto;
+	border: 4px solid black;
+	border-bottom: 0;
+}
+
+.pasek{
+	background-color: rgb(13, 44, 65);
+	width: 1160px;
+	padding: 20px;
+	color: #f2aa4cff;
+	font-family: Impact;
+	font-size: 30px;
+	border-bottom: 4px solid black;
+}
+
+a:hover{
+	color: rgb(195, 195, 195);
+}
+
+table{
+	margin: auto;
+	background-color: white;
+	border: 2px solid red;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+td{
+	border: 2px solid black;
+	padding: 2px;
+}
+
+.tekstramki a{
+	color: orange;
+}
+
+.tekstramki a:hover{
+	color: red;
+}
+
+#tytul{
+	display: inline-block;
+	padding-right: 570px;
+	float: left;
+}
+
+#ja{
+	display: inline-block;
+	padding-right: 60px;
+	float: left;
+}
+
+#zbior{
+	display: inline-block;
+}
+
+.tresc{
+	float: left;
+	border: 4px solid black;
+	width: 740px;
+	margin: 15px;
+	flex-grow: 1;
+	background-color: #101820ff;
+	text-align: center;
+}
+
+.laczenie{
+	display: flex;
+	background-color: #f2aa4cff;
+}
+
+.stopka{
+	text-align: center;
+	color: white;
+	padding: 5px;
+	background-color: black;
+	width: 1190px;
+	height: 100%;
+	font-size: 15px;
+}
+
+.ramka{
+	text-align: center;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	width: 800px;
+	height: 170px;
+	padding: 20px;
+	border: 2px solid red;
+}
+
+.ramkaduza{
+	text-align: center;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	width: 800px;
+	height: 310px;
+	padding: 20px;
+	border: 2px solid red;
+}
+
+.ramkamala{
+	text-align: center;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	width: 800px;
+	height: 50px;
+	padding: 20px;
+	border: 2px solid red;
+}
+
+.naglowek{
+	text-align: center;
+	color: yellow;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.tekstramki{
+	padding: 10px;
+	font-size: 26px;
+	margin: 0;
+}
+
+.wyroznienie{
+	color: purple;
+	font-style: italic;
+}

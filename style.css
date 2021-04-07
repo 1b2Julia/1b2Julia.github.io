@@ -1,0 +1,450 @@
+body{
+background-image: url(papier.jpg);
+background-image: cover;
+background image: no-repeat;
+margin: 0;
+padding: 0;
+font-size: 20px;
+margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	padding-bottom: 20px;
+}
+
+li:hover{
+	text-decoration: underline;
+}
+
+a:{
+	color: #f2aa4cff;
+}
+
+#strona{
+	width: 1200px;
+	margin: auto;
+	border: 4px solid black;
+	border-bottom: 0;
+}
+
+.pasek{
+	background-color: rgb(13, 44, 65);
+	width: 1160px;
+	padding: 20px;
+	color: #f2aa4cff;
+	font-family: Impact;
+	font-size: 30px;
+	border-bottom: 4px solid black;
+}
+
+a:hover{
+	color: rgb(195, 195, 195);
+}
+
+#tytul{
+	display: inline-block;
+	padding-right: 570px;
+	float: left;
+}
+
+#ja{
+	display: inline-block;
+	padding-right: 60px;
+	float: left;
+}
+
+#zbior{
+	display: inline-block;
+}
+
+.lista{
+	border: 4px solid black;
+	width: 85px;
+	margin: 10px;
+	display: inline-block;
+	float: left;
+	flex-grow: 1;
+	background-color: #101820ff;
+	color: #f2aa4cff;
+}
+
+.tresc{
+	float: left;
+	border: 4px solid black;
+	width: 740px;
+	margin: 10px;
+	margin-left: 0;
+	flex-grow: 1;
+	background-color: #101820ff;
+}
+
+.tresc2{
+	float: left;
+	border: 4px solid black;
+	width: 740px;
+	margin: 10px;
+	flex-grow: 1;
+	background-color: #101820ff;
+	text-align: center;
+}
+
+.laczenie{
+	display: flex;
+	background-color: #f2aa4cff;
+}
+
+.stopka{
+	text-align: center;
+	color: white;
+	padding: 5px;
+	background-color: black;
+	width: 1190px;
+	height: 100%;
+	font-size: 15px;
+}
+
+.okienka{
+	display: inline-block;
+	margin: 10px;
+}
+
+#duzy{
+	float: left;
+	border: 3px solid black;
+	width: 220px;
+	height: 320px;
+	display: inline-block;
+	background-image: url(akt.jpg);
+	background-size: cover;
+	display: block;
+	text-align: center;
+}
+
+#duzy2{
+	float: left;
+	border: 3px solid black;
+	width: 220px;
+	height: 320px;
+	display: inline-block;
+	text-align: center;
+	background-image: url(portret.jpg);
+	background-size: cover;
+	display: block;
+}
+
+.obok{
+	float: left;
+}
+
+#maly{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 79px;
+	width: 570px;
+	background-color: #f2aa4cff;
+	border: 3px solid black;
+	background-image: url(pejzaz.jpg);
+	background-position: bottom;
+	text-align: center;
+}
+
+#maly2{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 79px;
+	width: 570px;
+	background-color: #f2aa4cff;
+	border: 3px solid black;
+	text-align: center;
+	background-image: url(malarstworeligijne.jpg);
+	background-position: center;
+}
+
+#maly3{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 79px;
+	width: 570px;
+	background-color: #f2aa4cff;
+	border: 3px solid black;
+	text-align: center;
+	background-image: url(malarstwomitologiczne.jpg);
+	background-position: center;
+}
+
+#maly4{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 79px;
+	width: 570px;
+	background-color: #f2aa4cff;
+	border: 3px solid black;
+	text-align: center;
+	background-image: url(abstrakcja.jpg);
+	background-position: center;
+}
+
+#maly5{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 79px;
+	width: 570px;
+	background-color: #f2aa4cff;
+	border: 3px solid black;
+	text-align: center;
+	background-image: url(natura.jpg);
+	background-position: bottom;
+}
+
+#maly6{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 79px;
+	width: 570px;
+	background-color: #f2aa4cff;
+	border: 3px solid black;
+	text-align: center;
+	background-image: url(rodzajowe.jpg);
+	background-position: top;
+}
+
+#maly7{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 79px;
+	width: 570px;
+	background-color: #f2aa4cff;
+	border: 3px solid black;
+	background-image: url(akt2.jpg);
+	background-position: center;
+	text-align: center;
+}
+
+#maly8{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	height: 79px;
+	width: 570px;
+	background-color: #f2aa4cff;
+	border: 3px solid black;
+	background-image: url(portret2.jpg);
+	background-position: center;
+	text-align: center;
+}
+
+.ciemny{
+	opacity: 0;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+span.tekst{
+	position: relative;
+	bottom: 56%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#maly span.tekst{
+	position: relative;
+	bottom: 72%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#maly2 span.tekst{
+	position: relative;
+	bottom: 72%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#maly3 span.tekst{
+	position: relative;
+	bottom: 72%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#maly4 span.tekst{
+	position: relative;
+	bottom: 72%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#maly5 span.tekst{
+	position: relative;
+	bottom: 72%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#maly6 span.tekst{
+	position: relative;
+	bottom: 72%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#maly7 span.tekst{
+	position: relative;
+	bottom: 72%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#maly8 span.tekst{
+	position: relative;
+	bottom: 72%;
+	transform: translateY(-50%);
+	font-family: lato;
+	color: white;
+	opacity: 0;
+	font-size: 30px;
+}
+
+#duzy:hover span.tekst{
+	opacity: 1;
+}
+
+#duzy:hover .ciemny{
+	opacity: 0.3;
+}
+
+#duzy2:hover span.tekst{
+	opacity: 1;
+}
+
+#duzy2:hover .ciemny{
+	opacity: 0.3;
+}
+
+#maly:hover span.tekst{
+	opacity: 1;
+}
+
+#maly:hover .ciemny{
+	opacity: 0.3;
+}
+
+#maly2:hover span.tekst{
+	opacity: 1;
+}
+
+#maly2:hover .ciemny{
+	opacity: 0.3;
+}
+
+#maly3:hover span.tekst{
+	opacity: 1;
+}
+
+#maly3:hover .ciemny{
+	opacity: 0.3;
+}
+
+#maly4:hover span.tekst{
+	opacity: 1;
+}
+
+#maly4:hover .ciemny{
+	opacity: 0.3;
+}
+
+#maly5:hover span.tekst{
+	opacity: 1;
+}
+
+#maly5:hover .ciemny{
+	opacity: 0.3;
+}
+
+#maly6:hover span.tekst{
+	opacity: 1;
+}
+
+#maly6:hover .ciemny{
+	opacity: 0.3;
+}
+
+#maly7:hover span.tekst{
+	opacity: 1;
+}
+
+#maly7:hover .ciemny{
+	opacity: 0.3;
+}
+
+#maly8:hover span.tekst{
+	opacity: 1;
+}
+
+#maly8:hover .ciemny{
+	opacity: 0.3;
+}
+
+#zawartosc{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	flex-grow: 1;
+}
+
+#zdjecie{
+	padding: 30px;
+	border: 2px dashed white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 400px;
+	height: 300px;
+}
+
+.naglowek{
+	color: white;
+	margin-bottom: 20px;
+}
+
+.zainteresowania{
+	color: white;
+	margin-bottom: 20px;
+}
+
+.zaint{
+	padding-top: 20px;
+	color: black;
+	background-color: orange;
+}
